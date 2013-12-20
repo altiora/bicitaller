@@ -1,0 +1,25 @@
+<html>
+
+<head>
+
+<title>homepage</title>
+</head>
+
+<body>
+<p align="center"><b><font face="Arial" size="9" color="#336699">
+<?
+
+
+echo $HTTP_HOST;
+
+?>
+</font></b></p>
+
+<p align="center"><font face="Arial" size="5" color="#cc6600">sito in costruzione </font></p>
+<p align="center"><font face="Arial" size="2" color="#cc6600">hosting su 
+piattaforma <? echo $SERVER_SOFTWARE; ?>
+</font></p>
+</body>
+
+</html>
+

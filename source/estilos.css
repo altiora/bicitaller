@@ -1,0 +1,54 @@
+BODY
+{
+	background-color:#000000;
+}
+
+TD 
+{
+	font: 12px verdana; line-height: 16px;
+}
+TABLE
+{ 
+}
+
+TD.celdaContenido
+{
+	background-image: url(imagenes/franja_inf2.jpg);
+	background-position:bottom center ;
+	background-repeat:no-repeat;
+	padding-bottom:60px;
+	padding-top:30px;
+	padding-right:60px;
+	height: 200px;
+}
+TD.celdaContenido2
+{
+	background-image: url(imagenes/franja_inf.gif);
+	background-position:bottom center ;
+	background-repeat:no-repeat;
+	padding-bottom:60px;
+	padding-top:30px;
+	padding-right:60px;
+	height: 200px;
+}
+TD.lineainf
+{
+	padding-bottom:10px;
+	padding-top: 10px;
+	border-bottom:1px solid #FF9900;
+	
+}
+TD.celdaFotoIzqda
+{
+	padding-left:25px;
+	
+}
+a.clinclin
+{
+	color:#FF0099; font-weight: bold;
+}
+
+a.interesante
+{
+	color:#333333; font-weight:bold;
+}
