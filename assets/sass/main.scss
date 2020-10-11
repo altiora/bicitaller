@@ -4,7 +4,7 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'fontawesome-all.min.css';
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css2?family=#{_font(typeface)}:wght@#{_font(weight)};#{_font(weight-bold)}&display=swap');
 
 /*
 	Eventually by HTML5 UP
