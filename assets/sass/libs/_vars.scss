@@ -11,6 +11,12 @@
 		bg-slide:			45s // (lower = faster, higher = slower)
 	);
 
+// Motion.
+	$motion: (
+		bg-offset: 25%,
+		bg-direction: normal
+	);
+
 // Size.
 	$size: (
 		border-radius:		6px,

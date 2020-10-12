@@ -159,7 +159,7 @@ body > * {
   transition: opacity 2s ease-in-out;
   height: 100%;
   left: 0;
-  opacity: 0.375;
+  opacity: 0.675;
   position: fixed;
   top: 0;
   width: 100%;
@@ -180,10 +180,10 @@ body > * {
   width: 150%;
 }
 #bg div.visible {
-  -moz-animation: bg 45s linear infinite;
-  -webkit-animation: bg 45s linear infinite;
-  -ms-animation: bg 45s linear infinite;
-  animation: bg 45s linear infinite;
+  -moz-animation: bg 45s linear infinite normal;
+  -webkit-animation: bg 45s linear infinite normal;
+  -ms-animation: bg 45s linear infinite normal;
+  animation: bg 45s linear infinite normal;
   opacity: 1;
   visibility: visible;
   z-index: 1;
@@ -193,25 +193,30 @@ body > * {
 }
 @media screen and (max-width: 1280px) {
   #bg div.visible {
-    -moz-animation: bg 29.25s linear infinite;
-    -webkit-animation: bg 29.25s linear infinite;
-    -ms-animation: bg 29.25s linear infinite;
-    animation: bg 29.25s linear infinite;
+    -moz-animation: bg 29.25s linear infinite normal;
+    -webkit-animation: bg 29.25s linear infinite normal;
+    -ms-animation: bg 29.25s linear infinite normal;
+    animation: bg 29.25s linear infinite normal;
   }
 }
 @media screen and (max-width: 736px) {
   #bg div.visible {
-    -moz-animation: bg 18s linear infinite;
-    -webkit-animation: bg 18s linear infinite;
-    -ms-animation: bg 18s linear infinite;
-    animation: bg 18s linear infinite;
+    -moz-animation: bg 18s linear infinite normal;
+    -webkit-animation: bg 18s linear infinite normal;
+    -ms-animation: bg 18s linear infinite normal;
+    animation: bg 18s linear infinite normal;
   }
 }
 #bg div:only-child {
-  -moz-animation-direction: alternate !important;
-  -webkit-animation-direction: alternate !important;
-  -ms-animation-direction: alternate !important;
-  animation-direction: alternate !important;
+  -moz-animation-iteration-count: 1 !important;
+  -webkit-animation-iteration-count: 1 !important;
+  -ms-animation-iteration-count: 1 !important;
+  animation-iteration-count: 1 !important;
+  -moz-animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+  -ms-animation-fill-mode: both !important;
+  animation-fill-mode: both !important;
+  width: 133.3333333333%;
 }
 body.is-preload #bg {
   opacity: 0;

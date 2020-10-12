@@ -61,6 +61,13 @@
 	@return val($duration, $keys...);
 }
 
+/// Gets a motion value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _motion($keys...) {
+	@return val($motion, $keys...);
+}
+
 /// Gets a font value.
 /// @param {string} $keys Key(s).
 /// @return {string} Value.
