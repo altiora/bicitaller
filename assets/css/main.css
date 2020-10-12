@@ -216,6 +216,7 @@ body > * {
   -webkit-animation-fill-mode: both !important;
   -ms-animation-fill-mode: both !important;
   animation-fill-mode: both !important;
+  width: 133.3333333333%;
 }
 body.is-preload #bg {
   opacity: 0;

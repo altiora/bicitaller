@@ -49,6 +49,10 @@
 			&:only-child {
 				@include vendor('animation-iteration-count', '1 !important');
 				@include vendor('animation-fill-mode', 'both !important');
+				$unscaled-width: 100%;
+				$unscaled-final-width: $unscaled-width - _motion(bg-offset);
+				$desired-final-width: 100%;
+				width: $unscaled-width * $desired-final-width / $unscaled-final-width;
 			}
 		}
 
@@ -63,6 +67,6 @@
 		}
 
 		100% {
-			@include vendor('transform', 'translateX(-25%)');
+			@include vendor('transform', 'translateX(#{- _motion(bg-offset)})');
 		}
 	}
