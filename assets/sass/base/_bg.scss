@@ -47,7 +47,8 @@
 			}
 
 			&:only-child {
-				@include vendor('animation-direction', 'alternate !important');
+				@include vendor('animation-iteration-count', '1 !important');
+				@include vendor('animation-fill-mode', 'both !important');
 			}
 		}
 

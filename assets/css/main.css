@@ -208,10 +208,14 @@ body > * {
   }
 }
 #bg div:only-child {
-  -moz-animation-direction: alternate !important;
-  -webkit-animation-direction: alternate !important;
-  -ms-animation-direction: alternate !important;
-  animation-direction: alternate !important;
+  -moz-animation-iteration-count: 1 !important;
+  -webkit-animation-iteration-count: 1 !important;
+  -ms-animation-iteration-count: 1 !important;
+  animation-iteration-count: 1 !important;
+  -moz-animation-fill-mode: both !important;
+  -webkit-animation-fill-mode: both !important;
+  -ms-animation-fill-mode: both !important;
+  animation-fill-mode: both !important;
 }
 body.is-preload #bg {
   opacity: 0;
