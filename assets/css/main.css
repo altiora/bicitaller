@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import 'fontawesome-all.min.css';
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap");
 /*
 	Eventually by HTML5 UP
 	html5up.net | @ajlkn
@@ -325,7 +325,7 @@ a:hover {
 
 strong, b {
   color: #fff;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 em, i {
@@ -338,7 +338,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1em;
   margin: 0 0 1em 0;
 }
@@ -598,7 +598,7 @@ label {
   color: #fff;
   display: block;
   font-size: 0.9em;
-  font-weight: 700;
+  font-weight: 800;
   margin: 0 0 1em 0;
 }
 
@@ -881,7 +881,7 @@ button,
   color: #ffffff !important;
   cursor: pointer;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 800;
   height: 2.75em;
   line-height: 2.75em;
   padding: 0 1.125em;
