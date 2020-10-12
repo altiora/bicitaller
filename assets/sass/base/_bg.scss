@@ -28,7 +28,7 @@
 			width: 150%;
 
 			&.visible {
-				@include vendor('animation', 'bg #{_duration(bg-slide)} linear infinite');
+				@include vendor('animation', 'bg #{_duration(bg-slide)} linear infinite #{_motion(bg-direction)}');
 				opacity: 1;
 				visibility: visible;
 				z-index: 1;
@@ -38,11 +38,11 @@
 				}
 
 				@include breakpoint('<=large') {
-					@include vendor('animation', 'bg #{_duration(bg-slide) * 0.65} linear infinite');
+					@include vendor('animation', 'bg #{_duration(bg-slide) * 0.65} linear infinite #{_motion(bg-direction)}');
 				}
 
 				@include breakpoint('<=small') {
-					@include vendor('animation', 'bg #{_duration(bg-slide) * 0.4} linear infinite');
+					@include vendor('animation', 'bg #{_duration(bg-slide) * 0.4} linear infinite #{_motion(bg-direction)}');
 				}
 			}
 
